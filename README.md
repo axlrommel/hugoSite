@@ -1,0 +1,2 @@
+# hugoSite
+Static Template Hugo
