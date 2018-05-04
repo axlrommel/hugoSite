@@ -25,8 +25,8 @@ googleAnalytics = "UA-118353721-1"
   # Section - Content
   [params.content]
     name = "Rommel Villagomez"
-    tagline = "Tech. Science. Music."
-    bio = "Mr. President...polluting the oceans, not mitigating CO2 emissions and destroying biodiversity we are killing our planet. Let us face it, there is no Planet B. (President Macron speaking to US Congress)"
+    tagline = "Technology. Science. Music."
+    bio = "Mr. President...by polluting the oceans, not mitigating CO2 emissions and destroying biodiversity, we are killing our planet. Let us face it, there is no Planet B. (President Macron speaking to US Congress)"
 
   # Section - Visual
   [params.visual]
@@ -72,7 +72,14 @@ googleAnalytics = "UA-118353721-1"
         text = "Twitter"
         url = "https://twitter.com/axlrommel"
 
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Contact"
 
+      [[params.links.list3.link]]
+        text = "Email"
+        url = "mailto:rommelvillagomez@hotmail.com"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
