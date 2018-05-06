@@ -26,4 +26,6 @@ To note:
 - in CloudFront/origins don't take the default S3 value but the one from S3 directly
 - create Alias repo in Route 53 pointing to Cloud Front
 - everywhere else use rommelvillagomez.com only
-
+- make S3 public folder
+- in S3 change meta of index.html to Cache-Control: max-age=0 so all files are refreshed automatically
+- in Cloudfront add to invalidations * so all files are not cached but refreshed
