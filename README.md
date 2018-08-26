@@ -29,3 +29,21 @@ To note:
 - make S3 public folder
 - in S3 change meta of index.html to Cache-Control: max-age=0 so all files are refreshed automatically
 - in Cloudfront add to invalidations * so all files are not cached but refreshed
+
+bucket policy:
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::website-lgt/*"
+            ]
+        }
+    ]
+}
