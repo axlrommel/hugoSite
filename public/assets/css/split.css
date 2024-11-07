@@ -102,7 +102,7 @@ html {
   background-color: #061C30; }
 
 body.page-template-page-fullsingle-split {
-  background-color: #061C30;
+  background-color: #12416d;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 21px;
@@ -212,9 +212,9 @@ body.page-template-page-fullsingle-split {
     font-size: 11px;
     line-height: 11px;
     margin-bottom: 31px;
-    color: #848d96;
+    color: white;
     letter-spacing: 2px;
-    opacity: 0.5; }
+    opacity: 0.9; }
   .split-lists .split-list ul li {
     font-size: 16px;
     line-height: 16px;
